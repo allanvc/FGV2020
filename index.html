@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
-    <title>Ciência de Dados na Administração Pública</title>
+    <title>Os desafios de se montar um time de</title>
     <meta charset="utf-8" />
     <meta name="author" content="Allan V. C. Quadros" />
     <script src="https://use.fontawesome.com/5235085b15.js"></script>
@@ -12,9 +12,10 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# <code><font color=#4C5455>Ciência de Dados na </font><font color=#F8A53A>Administração Pública</font></code>
+# <code><font color=#4C5455>Os desafios de se montar um <font color =#76DFEC>time </font>de </font></code>
+## <code><font color=#F8A53A>Ciência de Dados </font>na Administração Pública</code>
 ### Allan V. C. Quadros
-### Assessor Técnico de Métodos Quantitativos - FNDE </br> 23 de outubro, 2020
+### <code>Lead Data Scientist <br> Fundo Nacional de Desenvolvimento da Educação (FNDE) <br> 05 de dezembro, 2020</code>
 
 ---
 
@@ -599,7 +600,7 @@ background-position: 9% 15%
 &lt;/br&gt;
 &lt;/br&gt;
 
-## &lt;code&gt;&lt;font color =#F8A53A&gt;Duvidas &lt;/font&gt;&lt;font color =#76DFEC&gt;ou &lt;/font&gt;&lt;font color =#C2DB70&gt;Perguntas?&lt;/font&gt;&lt;/code&gt;
+## &lt;code&gt;&lt;font color =#F8A53A&gt;Dúvidas &lt;/font&gt;&lt;font color =#76DFEC&gt;ou &lt;/font&gt;&lt;font color =#C2DB70&gt;Perguntas?&lt;/font&gt;&lt;/code&gt;
 
 
 
@@ -614,14 +615,14 @@ background-position: 9% 15%
 &lt;div&gt;
     &lt;p&gt;Feito no
     &lt;img src="./img/rball.png" style="float: center; width: 4%;"&gt; com 
-    &lt;img src="./img/xaringan.png" style="float: center; width: 3.8%;"&gt;.
+    &lt;img src="./img/xaringan.png" style="float: center; width: 3.8%;"&gt;
     &lt;/p&gt;
 &lt;/div&gt;
 
-Apresentação disponível em:
+Webpage:
 
 &lt;p&gt;
-&lt;a href="https://allanvc.github.io/slide_SNCTNF2020/" style="color:navyblue"&gt;https://allanvc.github.io/slide_SNCTNF2020/&lt;/a&gt;
+&lt;a href="https://allanvc.github.io/" style="color:navyblue"&gt;https://allanvc.github.io/&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;br&gt;
@@ -673,9 +674,25 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -684,7 +701,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {

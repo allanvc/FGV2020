@@ -1,8 +1,8 @@
 ---
-title: "<code><font color=#4C5455>Ciência de Dados na </font><font color=#F8A53A>Administração Pública</font></code>"
-#subtitle: "<code>cases de sucesso no <font color=#F8A53A>Fundo Nacional de Desenvolvimento da Educação</font></code>"
+title: "<code><font color=#4C5455>Os desafios de se montar um <font color =#76DFEC>time </font>de </font></code>"
+subtitle: "<code><font color=#F8A53A>Ciência de Dados </font>na Administração Pública</code>"
 author: "Allan V. C. Quadros"
-date: "Assessor Técnico de Métodos Quantitativos - FNDE </br> 23 de outubro, 2020"
+date: "<code>Lead Data Scientist <br> Fundo Nacional de Desenvolvimento da Educação (FNDE) <br> 05 de dezembro, 2020</code>"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -605,7 +605,7 @@ background-position: 9% 15%
 </br>
 </br>
 
-## <code><font color =#F8A53A>Duvidas </font><font color =#76DFEC>ou </font><font color =#C2DB70>Perguntas?</font></code>
+## <code><font color =#F8A53A>Dúvidas </font><font color =#76DFEC>ou </font><font color =#C2DB70>Perguntas?</font></code>
 
 
 
@@ -620,14 +620,14 @@ background-position: 9% 15%
 <div>
     <p>Feito no
     <img src="./img/rball.png" style="float: center; width: 4%;"> com 
-    <img src="./img/xaringan.png" style="float: center; width: 3.8%;">.
+    <img src="./img/xaringan.png" style="float: center; width: 3.8%;">
     </p>
 </div>
 
-Apresentação disponível em:
+Webpage:
 
 <p>
-<a href="https://allanvc.github.io/slide_SNCTNF2020/" style="color:navyblue">https://allanvc.github.io/slide_SNCTNF2020/</a>
+<a href="https://allanvc.github.io/" style="color:navyblue">https://allanvc.github.io/</a>
 </p>
 
 <br>

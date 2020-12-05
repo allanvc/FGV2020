@@ -124,7 +124,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 /* Add image and change bg color */
 /* estah pasta img estah em /css/img" */
 .title-slide {
-  background-image: url(img/LogoGEd.png);
+  background-image: url(img/FGV_logo.png);
   background-position: 9% 15%;
   background-size: 130px;
   background-color: #fff;
